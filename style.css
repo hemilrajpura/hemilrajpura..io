@@ -1,0 +1,34 @@
+body{
+background: linear-gradient(to right, #FFFDE4, #005AA7); 
+background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	position: relative;
+}
+img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.single-link{
+	width: 12rem;
+    height: 5rem;
+	box-shadow: inset 0 0 2000px rgba(255, 255,255,.5);
+	backdrop-filter: blur(1px);
+	text-align: center;
+	padding: 20px;
+	border: 2px solid #ffffff78;
+	color:#fff;
+	text-decoration: none;
+	transition: width 2s;
+	margin-top: 15px;
+}
+.single-link:hover{
+		backdrop-filter: blur(50px);
+	    border: 2px solid #ffffffe1;
+	   
+	    transition: width 2s;
+
+}
